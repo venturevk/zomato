@@ -1,0 +1,65 @@
+*{
+    margin:0; padding:0; 
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero__section{
+    /* background-image:url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png") ; */
+    background-image:url("img1.avif");
+    background-size: cover; background-position: center;
+    height:60vh;
+}
+
+.navbar{
+    background-color: transparent;
+    height:50px; width:;
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none; 
+    margin-left:5px;
+}
+
+.nav__menu{
+    display:flex; 
+    gap:18px;
+}
+
+.usericon{
+    height:25px; width:25px; 
+    margin-right:5px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 100%;
+    border: solid 1px white;
+}
+
+@media only screen and (max-width: 600px){
+    .usericon{
+        display: flex;
+    }
+    .link{
+        display:none;
+    }
+    .hero__section{
+        min-hight:80vh; 
+    }
+}
+
+.midsection{
+    /* position:relative;  left:100px;  */
+    /* justify-content: center; align-items: center; */
+}
+
+.zomatologo{
+    height:100px;
+}
+
+h1{
+    color:white;
+}
