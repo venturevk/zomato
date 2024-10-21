@@ -13,7 +13,8 @@
 
 .navbar{
     background-color: transparent;
-    height:50px; width:;
+    height:50px; 
+    /* width:; */
     display: flex; justify-content: space-between;
     align-items: center;
 }
@@ -47,14 +48,13 @@
         display:none;
     }
     .hero__section{
-        min-hight:80vh; 
+        min-height:80vh; 
     }
 }
 
-.midsection{
+/* .midsection{
     /* position:relative;  left:100px;  */
-    /* justify-content: center; align-items: center; */
-}
+    /* justify-content: center; align-items: center; }*/ 
 
 .zomatologo{
     height:100px;
